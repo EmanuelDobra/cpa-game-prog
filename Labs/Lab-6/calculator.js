@@ -11,147 +11,147 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_73 = function() {
+(lib.CachedBmp_58 = function() {
 	this.initialize(ss["calculator_atlas_"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_71 = function() {
+(lib.CachedBmp_56 = function() {
 	this.initialize(ss["calculator_atlas_"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_66 = function() {
+(lib.CachedBmp_55 = function() {
 	this.initialize(ss["calculator_atlas_"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_53 = function() {
+(lib.CachedBmp_54 = function() {
 	this.initialize(ss["calculator_atlas_"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_52 = function() {
+(lib.CachedBmp_53 = function() {
 	this.initialize(ss["calculator_atlas_"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_51 = function() {
+(lib.CachedBmp_52 = function() {
 	this.initialize(ss["calculator_atlas_"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_74 = function() {
+(lib.CachedBmp_51 = function() {
 	this.initialize(ss["calculator_atlas_"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_70 = function() {
+(lib.CachedBmp_50 = function() {
 	this.initialize(ss["calculator_atlas_"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_69 = function() {
+(lib.CachedBmp_49 = function() {
 	this.initialize(ss["calculator_atlas_"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_68 = function() {
+(lib.CachedBmp_48 = function() {
 	this.initialize(ss["calculator_atlas_"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_67 = function() {
+(lib.CachedBmp_47 = function() {
 	this.initialize(ss["calculator_atlas_"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_65 = function() {
+(lib.CachedBmp_46 = function() {
 	this.initialize(ss["calculator_atlas_"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_64 = function() {
+(lib.CachedBmp_45 = function() {
 	this.initialize(ss["calculator_atlas_"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_63 = function() {
+(lib.CachedBmp_44 = function() {
 	this.initialize(ss["calculator_atlas_"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_62 = function() {
+(lib.CachedBmp_43 = function() {
 	this.initialize(ss["calculator_atlas_"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_61 = function() {
+(lib.CachedBmp_42 = function() {
 	this.initialize(ss["calculator_atlas_"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_60 = function() {
+(lib.CachedBmp_41 = function() {
 	this.initialize(ss["calculator_atlas_"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_59 = function() {
+(lib.CachedBmp_40 = function() {
 	this.initialize(ss["calculator_atlas_"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_58 = function() {
+(lib.CachedBmp_39 = function() {
 	this.initialize(ss["calculator_atlas_"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_57 = function() {
+(lib.CachedBmp_38 = function() {
 	this.initialize(ss["calculator_atlas_"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_56 = function() {
+(lib.CachedBmp_37 = function() {
 	this.initialize(ss["calculator_atlas_"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
@@ -176,13 +176,13 @@ p.draw = _componentDraw;
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_66();
+	this.instance = new lib.CachedBmp_55();
 	this.instance.setTransform(-97.45,-50.4,0.3349,0.3349);
 
-	this.instance_1 = new lib.CachedBmp_71();
+	this.instance_1 = new lib.CachedBmp_56();
 	this.instance_1.setTransform(-97.45,-50.4,0.3349,0.3349);
 
-	this.instance_2 = new lib.CachedBmp_73();
+	this.instance_2 = new lib.CachedBmp_58();
 	this.instance_2.setTransform(-97.45,-50.4,0.3349,0.3349);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).wait(1));
@@ -274,34 +274,34 @@ p.nominalBounds = new cjs.Rectangle(-97.4,-50.4,189.8,98.1);
 	this.timeline.addTween(cjs.Tween.get(this).wait(50).call(this.frame_50).wait(9).call(this.frame_59).wait(1));
 
 	// choices
-	this.instance = new lib.CachedBmp_67();
+	this.instance = new lib.CachedBmp_47();
 	this.instance.setTransform(2,27.9,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_65();
+	this.instance_1 = new lib.CachedBmp_46();
 	this.instance_1.setTransform(330.4,279.45,0.5,0.5);
 
-	this.instance_2 = new lib.CachedBmp_64();
+	this.instance_2 = new lib.CachedBmp_45();
 	this.instance_2.setTransform(332.95,179.75,0.5,0.5);
 
-	this.instance_3 = new lib.CachedBmp_63();
+	this.instance_3 = new lib.CachedBmp_44();
 	this.instance_3.setTransform(90.65,280.9,0.5,0.5);
 
-	this.instance_4 = new lib.CachedBmp_62();
+	this.instance_4 = new lib.CachedBmp_43();
 	this.instance_4.setTransform(93.2,181.9,0.5,0.5);
 
-	this.instance_5 = new lib.CachedBmp_61();
+	this.instance_5 = new lib.CachedBmp_42();
 	this.instance_5.setTransform(364.35,306.4,0.5,0.5);
 
-	this.instance_6 = new lib.CachedBmp_60();
+	this.instance_6 = new lib.CachedBmp_41();
 	this.instance_6.setTransform(114.45,306.4,0.5,0.5);
 
-	this.instance_7 = new lib.CachedBmp_59();
+	this.instance_7 = new lib.CachedBmp_40();
 	this.instance_7.setTransform(344.05,208.05,0.5,0.5);
 
-	this.instance_8 = new lib.CachedBmp_58();
+	this.instance_8 = new lib.CachedBmp_39();
 	this.instance_8.setTransform(136.25,208.05,0.5,0.5);
 
-	this.instance_9 = new lib.CachedBmp_57();
+	this.instance_9 = new lib.CachedBmp_38();
 	this.instance_9.setTransform(157.65,141.95,0.5,0.5);
 
 	this.sub_btn = new lib.myButton();
@@ -324,10 +324,10 @@ p.nominalBounds = new cjs.Rectangle(-97.4,-50.4,189.8,98.1);
 	this.mult_btn.setTransform(158.7,326.25,0.6516,0.6429);
 	new cjs.ButtonHelper(this.mult_btn, 0, 1, 2, false, new lib.myButton(), 3);
 
-	this.instance_10 = new lib.CachedBmp_56();
+	this.instance_10 = new lib.CachedBmp_37();
 	this.instance_10.setTransform(84.2,186.4,0.5,0.5);
 
-	this.instance_11 = new lib.CachedBmp_74();
+	this.instance_11 = new lib.CachedBmp_51();
 	this.instance_11.setTransform(19.1,340.55,0.5,0.5);
 
 	this.back_btn = new lib.myButton();
@@ -335,7 +335,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,-50.4,189.8,98.1);
 	this.back_btn.setTransform(61.75,359.5,0.3677,0.5883);
 	new cjs.ButtonHelper(this.back_btn, 0, 1, 2, false, new lib.myButton(), 3);
 
-	this.instance_12 = new lib.CachedBmp_70();
+	this.instance_12 = new lib.CachedBmp_50();
 	this.instance_12.setTransform(158.95,197.45,0.5,0.5);
 
 	this.guess_txt = new lib.an_TextInput({'id': 'guess_txt', 'value':'', 'disabled':false, 'visible':true, 'class':'ui-textinput'});
@@ -351,7 +351,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,-50.4,189.8,98.1);
 	this.operator_txt.parent = this;
 	this.operator_txt.setTransform(187.8,79.4);
 
-	this.instance_13 = new lib.CachedBmp_69();
+	this.instance_13 = new lib.CachedBmp_49();
 	this.instance_13.setTransform(271.05,68.55,0.5,0.5);
 
 	this.secondNumb_txt = new cjs.Text("4", "30px 'MV Boli'");
@@ -375,7 +375,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,-50.4,189.8,98.1);
 	this.check_btn.setTransform(270.4,265.5,1.1041,1.4931,0,0,0,0.1,0.1);
 	new cjs.ButtonHelper(this.check_btn, 0, 1, 2, false, new lib.myButton(), 3);
 
-	this.instance_14 = new lib.CachedBmp_68();
+	this.instance_14 = new lib.CachedBmp_48();
 	this.instance_14.setTransform(47.65,60.05,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_10},{t:this.mult_btn},{t:this.div_btn},{t:this.add_btn},{t:this.sub_btn},{t:this.instance_9},{t:this.instance_8},{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]},50).to({state:[{t:this.instance_14},{t:this.check_btn},{t:this.firstNumb_txt},{t:this.secondNumb_txt},{t:this.instance_13},{t:this.operator_txt},{t:this.guess_txt},{t:this.instance_12},{t:this.back_btn},{t:this.instance_11}]},9).wait(1));
@@ -437,13 +437,13 @@ p.nominalBounds = new cjs.Rectangle(-97.4,-50.4,189.8,98.1);
 	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:mask_graphics_0,x:-53.7,y:61.15}).wait(1).to({graphics:mask_graphics_1,x:-44.05,y:61.15}).wait(1).to({graphics:mask_graphics_2,x:-34.35,y:61.15}).wait(1).to({graphics:mask_graphics_3,x:-24.7,y:61.15}).wait(1).to({graphics:mask_graphics_4,x:-15,y:61.15}).wait(1).to({graphics:mask_graphics_5,x:-5.35,y:61.15}).wait(1).to({graphics:mask_graphics_6,x:4.35,y:61.15}).wait(1).to({graphics:mask_graphics_7,x:14,y:61.15}).wait(1).to({graphics:mask_graphics_8,x:23.7,y:61.15}).wait(1).to({graphics:mask_graphics_9,x:33.35,y:61.15}).wait(1).to({graphics:mask_graphics_10,x:43.05,y:61.15}).wait(1).to({graphics:mask_graphics_11,x:52.7,y:61.15}).wait(1).to({graphics:mask_graphics_12,x:62.35,y:61.15}).wait(1).to({graphics:mask_graphics_13,x:72.05,y:61.15}).wait(1).to({graphics:mask_graphics_14,x:81.7,y:61.15}).wait(1).to({graphics:mask_graphics_15,x:91.4,y:61.15}).wait(1).to({graphics:mask_graphics_16,x:101.05,y:61.15}).wait(1).to({graphics:mask_graphics_17,x:110.75,y:61.15}).wait(1).to({graphics:mask_graphics_18,x:120.4,y:61.15}).wait(1).to({graphics:mask_graphics_19,x:130.1,y:61.15}).wait(1).to({graphics:mask_graphics_20,x:139.75,y:61.15}).wait(1).to({graphics:mask_graphics_21,x:149.4,y:61.15}).wait(1).to({graphics:mask_graphics_22,x:159.1,y:61.15}).wait(1).to({graphics:mask_graphics_23,x:168.75,y:61.15}).wait(1).to({graphics:mask_graphics_24,x:178.45,y:61.15}).wait(1).to({graphics:mask_graphics_25,x:188.1,y:61.15}).wait(1).to({graphics:mask_graphics_26,x:197.8,y:61.15}).wait(1).to({graphics:mask_graphics_27,x:207.45,y:61.15}).wait(1).to({graphics:mask_graphics_28,x:217.15,y:61.15}).wait(1).to({graphics:mask_graphics_29,x:226.8,y:61.15}).wait(1).to({graphics:mask_graphics_30,x:236.45,y:61.15}).wait(1).to({graphics:mask_graphics_31,x:246.15,y:61.15}).wait(1).to({graphics:mask_graphics_32,x:255.8,y:61.15}).wait(1).to({graphics:mask_graphics_33,x:265.5,y:61.15}).wait(1).to({graphics:mask_graphics_34,x:275.15,y:61.15}).wait(1).to({graphics:mask_graphics_35,x:284.85,y:61.15}).wait(1).to({graphics:mask_graphics_36,x:294.5,y:61.15}).wait(1).to({graphics:mask_graphics_37,x:304.2,y:61.15}).wait(1).to({graphics:mask_graphics_38,x:313.85,y:61.15}).wait(1).to({graphics:mask_graphics_39,x:323.5,y:61.15}).wait(1).to({graphics:mask_graphics_40,x:333.2,y:61.15}).wait(1).to({graphics:mask_graphics_41,x:342.85,y:61.15}).wait(1).to({graphics:mask_graphics_42,x:352.55,y:61.15}).wait(1).to({graphics:mask_graphics_43,x:362.2,y:61.15}).wait(1).to({graphics:mask_graphics_44,x:371.9,y:61.15}).wait(1).to({graphics:mask_graphics_45,x:381.55,y:61.15}).wait(1).to({graphics:mask_graphics_46,x:391.25,y:61.15}).wait(1).to({graphics:mask_graphics_47,x:400.9,y:61.15}).wait(1).to({graphics:mask_graphics_48,x:410.6,y:61.15}).wait(1).to({graphics:mask_graphics_49,x:420.25,y:61.15}).wait(11));
 
 	// title
-	this.instance_15 = new lib.CachedBmp_51();
+	this.instance_15 = new lib.CachedBmp_52();
 	this.instance_15.setTransform(2,28.2,0.5,0.5);
 
-	this.instance_16 = new lib.CachedBmp_52();
+	this.instance_16 = new lib.CachedBmp_53();
 	this.instance_16.setTransform(2,28.2,0.5,0.5);
 
-	this.instance_17 = new lib.CachedBmp_53();
+	this.instance_17 = new lib.CachedBmp_54();
 	this.instance_17.setTransform(2,28.2,0.5,0.5);
 
 	var maskedShapeInstanceList = [this.instance_15,this.instance_16,this.instance_17];
@@ -467,10 +467,10 @@ lib.properties = {
 	color: "#0033CC",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/calculator_atlas_.png", id:"calculator_atlas_"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/textinput.js", id:"an.TextInput"}
+		{src:"images/calculator_atlas_.png?1647302605561", id:"calculator_atlas_"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1647302605603", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1647302605603", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/textinput.js?1647302605603", id:"an.TextInput"}
 	],
 	preloads: []
 };
